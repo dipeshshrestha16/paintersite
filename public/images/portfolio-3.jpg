@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#7d9e7d"/>
+  <rect x="0" y="0" width="600" height="600" fill="#8fac8f" opacity="0.5"/>
+  <rect x="80" y="200" width="200" height="300" fill="#6b8f6b" rx="1"/>
+  <rect x="320" y="150" width="240" height="350" fill="#739a73" rx="1"/>
+  <rect x="80" y="120" width="480" height="60" fill="#5a7a5a" rx="1"/>
+  <text x="300" y="560" font-family="Arial,sans-serif" font-size="14" fill="#e8f5e8" text-anchor="middle">Sage Green Living Room</text>
+  <text x="300" y="582" font-family="Arial,sans-serif" font-size="12" fill="#c8e0c8" text-anchor="middle">[ portfolio-3.jpg ]</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bdd8e8"/>
+      <stop offset="100%" stop-color="#ddeef8"/>
+    </linearGradient>
+    <linearGradient id="house-wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0e8dc"/>
+      <stop offset="100%" stop-color="#e4d8c8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#sky)"/>
+
+  <!-- Clouds -->
+  <ellipse cx="120" cy="70" rx="70" ry="30" fill="rgba(255,255,255,0.8)"/>
+  <ellipse cx="160" cy="58" rx="55" ry="28" fill="rgba(255,255,255,0.8)"/>
+  <ellipse cx="90"  cy="68" rx="45" ry="22" fill="rgba(255,255,255,0.7)"/>
+  <ellipse cx="650" cy="90" rx="60" ry="25" fill="rgba(255,255,255,0.7)"/>
+  <ellipse cx="690" cy="80" rx="45" ry="22" fill="rgba(255,255,255,0.7)"/>
+
+  <!-- House -->
+  <rect x="80" y="180" width="640" height="280" fill="url(#house-wall)" rx="2"/>
+  <!-- Freshly painted section (right half) -->
+  <rect x="420" y="180" width="300" height="280" fill="#e8f0f8" rx="2"/>
+  <line x1="420" y1="180" x2="420" y2="460" stroke="#d0c4b4" stroke-width="3"/>
+  <!-- Roof -->
+  <polygon points="60,185 400,60 740,185" fill="#8b6347"/>
+  <polygon points="60,185 400,60 740,185" fill="none" stroke="#7a5538" stroke-width="4"/>
+  <!-- Chimney -->
+  <rect x="560" y="80" width="50" height="80" fill="#9a7060"/>
+
+  <!-- Windows -->
+  <rect x="140" y="240" width="110" height="100" fill="#c8dce8" rx="2"/>
+  <rect x="135" y="235" width="120" height="110" fill="none" stroke="#d4b896" stroke-width="6" rx="1"/>
+  <line x1="195" y1="235" x2="195" y2="345" stroke="#d4b896" stroke-width="4"/>
+  <line x1="135" y1="290" x2="255" y2="290" stroke="#d4b896" stroke-width="4"/>
+
+  <rect x="480" y="240" width="110" height="100" fill="#c8dce8" rx="2"/>
+  <rect x="475" y="235" width="120" height="110" fill="none" stroke="#d4b896" stroke-width="6" rx="1"/>
+  <line x1="535" y1="235" x2="535" y2="345" stroke="#d4b896" stroke-width="4"/>
+  <line x1="475" y1="290" x2="595" y2="290" stroke="#d4b896" stroke-width="4"/>
+
+  <!-- Front door -->
+  <rect x="330" y="340" width="80" height="120" rx="4" fill="#428bca"/>
+  <circle cx="398" cy="400" r="6" fill="#f0c060"/>
+
+  <!-- Ground / grass -->
+  <rect x="0" y="455" width="800" height="45" fill="#7ab060"/>
+  <rect x="0" y="455" width="800" height="8" fill="#90c070"/>
+
+  <!-- Scaffold / ladder -->
+  <line x1="640" y1="185" x2="640" y2="460" stroke="#8b6347" stroke-width="6"/>
+  <line x1="680" y1="185" x2="680" y2="460" stroke="#8b6347" stroke-width="6"/>
+  <line x1="640" y1="240" x2="680" y2="240" stroke="#8b6347" stroke-width="4"/>
+  <line x1="640" y1="300" x2="680" y2="300" stroke="#8b6347" stroke-width="4"/>
+  <line x1="640" y1="360" x2="680" y2="360" stroke="#8b6347" stroke-width="4"/>
+  <line x1="640" y1="420" x2="680" y2="420" stroke="#8b6347" stroke-width="4"/>
+
+  <!-- Painter 1 (on ladder) -->
+  <circle cx="660" cy="195" r="22" fill="#9a7555"/>
+  <rect x="642" y="215" width="36" height="65" rx="6" fill="#428bca"/>
+  <rect x="644" y="270" width="14" height="40" rx="5" fill="#34495e"/>
+  <rect x="662" y="270" width="14" height="40" rx="5" fill="#34495e"/>
+  <!-- arm with roller -->
+  <rect x="608" y="224" width="36" height="14" rx="5" fill="#428bca" transform="rotate(15 608 224)"/>
+  <rect x="590" y="220" width="24" height="28" rx="6" fill="#34495e"/>
+
+  <!-- Painter 2 (ground, mixing paint) -->
+  <circle cx="160" cy="375" r="24" fill="#8a6040"/>
+  <rect x="140" y="397" width="40" height="68" rx="6" fill="#428bca"/>
+  <rect x="140" y="455" width="16" height="5" rx="2" fill="#34495e"/>
+  <rect x="164" y="455" width="16" height="5" rx="2" fill="#34495e"/>
+  <!-- Leaning over paint -->
+  <rect x="180" y="408" width="40" height="14" rx="5" fill="#428bca" transform="rotate(-20 180 408)"/>
+
+  <!-- Painter 3 (ground, painting trim) -->
+  <circle cx="380" cy="370" r="22" fill="#9a7555"/>
+  <rect x="362" y="390" width="36" height="65" rx="6" fill="#2c3e50"/>
+  <rect x="362" y="445" width="14" height="15" rx="3" fill="#34495e"/>
+  <rect x="384" y="445" width="14" height="15" rx="3" fill="#34495e"/>
+  <!-- arm with brush -->
+  <rect x="396" y="400" width="40" height="12" rx="4" fill="#2c3e50" transform="rotate(-10 396 400)"/>
+  <rect x="432" y="396" width="8" height="28" rx="2" fill="#c8a070"/>
+
+  <!-- Paint buckets on ground -->
+  <rect x="80" y="440" width="35" height="22" rx="3" fill="#2c3e50"/>
+  <ellipse cx="97" cy="440" rx="18" ry="6" fill="#34495e"/>
+  <rect x="124" y="440" width="35" height="22" rx="3" fill="#428bca"/>
+  <ellipse cx="141" cy="440" rx="18" ry="6" fill="#5a9fd4"/>
+
+  <!-- PaintSites logo on van (partially visible edge) -->
+  <rect x="0" y="380" width="60" height="80" fill="#393f4d" rx="4"/>
+  <text x="30" y="425" font-family="Arial,sans-serif" font-size="9" fill="#428bca" text-anchor="middle" font-weight="bold">PAINT</text>
+  <text x="30" y="437" font-family="Arial,sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="bold">SITES</text>
+</svg>

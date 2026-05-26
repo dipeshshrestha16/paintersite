@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5efe6"/>
+      <stop offset="100%" stop-color="#e8ddd0"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4b896"/>
+      <stop offset="100%" stop-color="#c0a07a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background room -->
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <!-- Floor -->
+  <rect x="0" y="460" width="600" height="140" fill="url(#floor)"/>
+  <rect x="0" y="458" width="600" height="5" fill="#c0986a"/>
+  <!-- Wall panels -->
+  <rect x="0" y="0" width="600" height="460" fill="none" stroke="#e0d4c4" stroke-width="1"/>
+  <rect x="30" y="30" width="540" height="400" fill="none" stroke="#ddd0be" stroke-width="1"/>
+
+  <!-- Window on wall -->
+  <rect x="380" y="60" width="180" height="260" fill="#c8dce8" rx="1"/>
+  <rect x="375" y="55" width="190" height="270" fill="none" stroke="#d4b896" stroke-width="7"/>
+  <line x1="470" y1="55" x2="470" y2="325" stroke="#d4b896" stroke-width="5"/>
+  <line x1="375" y1="190" x2="565" y2="190" stroke="#d4b896" stroke-width="5"/>
+
+  <!-- Homeowner (right figure) — light business casual -->
+  <circle cx="370" cy="175" r="44" fill="#c4a07a"/>
+  <!-- body -->
+  <rect x="330" y="216" width="80" height="120" rx="10" fill="#ecf0f1"/>
+  <!-- collar detail -->
+  <polygon points="370,216 355,240 370,250 385,240" fill="#dde4e8"/>
+  <!-- legs -->
+  <rect x="330" y="328" width="32" height="100" rx="8" fill="#b8b8d0"/>
+  <rect x="378" y="328" width="32" height="100" rx="8" fill="#b8b8d0"/>
+  <!-- arm extended for handshake -->
+  <rect x="248" y="236" width="82" height="22" rx="8" fill="#ecf0f1" transform="rotate(5 248 236)"/>
+
+  <!-- Painter (left figure) — work uniform -->
+  <circle cx="220" cy="175" r="44" fill="#9a7555"/>
+  <!-- uniform body -->
+  <rect x="180" y="216" width="80" height="120" rx="10" fill="#428bca"/>
+  <!-- logo patch -->
+  <rect x="188" y="230" width="28" height="18" rx="2" fill="#2e6da4"/>
+  <!-- legs -->
+  <rect x="180" y="328" width="32" height="100" rx="8" fill="#34495e"/>
+  <rect x="228" y="328" width="32" height="100" rx="8" fill="#34495e"/>
+  <!-- arm extended for handshake -->
+  <rect x="258" y="236" width="72" height="22" rx="8" fill="#428bca" transform="rotate(-5 258 236)"/>
+
+  <!-- Handshake point highlight -->
+  <circle cx="300" cy="250" r="14" fill="rgba(66,139,202,0.2)"/>
+
+  <!-- Tool belt detail on painter -->
+  <rect x="178" y="318" width="84" height="12" rx="4" fill="#2c3e50"/>
+  <rect x="196" y="314" width="16" height="16" rx="2" fill="#4a6888"/>
+  <rect x="218" y="314" width="12" height="16" rx="2" fill="#c8a070"/>
+
+  <!-- Paint bucket near painter's feet -->
+  <rect x="120" y="460" width="48" height="40" rx="4" fill="#2c3e50"/>
+  <ellipse cx="144" cy="460" rx="24" ry="8" fill="#34495e"/>
+  <ellipse cx="144" cy="498" rx="24" ry="8" fill="#1e2d3d"/>
+  <!-- bucket handle -->
+  <path d="M 124 460 Q 144 445 164 460" fill="none" stroke="#5a7090" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,39 @@
+/* Bootstrap 5 variable overrides — loaded after bootstrap.min.css */
+:root {
+  --bs-primary:            #393f4d;
+  --bs-secondary:          #428bca;
+  --bs-link-color:         #428bca;
+  --bs-link-hover-color:   #2e6da4;
+  --bs-border-radius:      1px;
+  --bs-border-radius-sm:   1px;
+  --bs-border-radius-lg:   4px;
+  --bs-border-radius-pill: 100px;
+  --bs-font-sans-serif:    'Inter', system-ui, sans-serif;
+  --bs-body-font-family:   'Inter', system-ui, sans-serif;
+  --bs-body-font-size:     16px;
+  --bs-body-line-height:   1.7;
+  --bs-body-color:         #000000;
+}
+
+.btn {
+  border-radius: var(--radius-xs) !important;
+  font-family: var(--font-primary);
+}
+
+.form-control,
+.form-select {
+  border-radius: var(--radius-xs) !important;
+  font-family: var(--font-primary);
+  font-size: 14px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--color-secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Breadcrumb divider colour */
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--color-neutral-100);
+}

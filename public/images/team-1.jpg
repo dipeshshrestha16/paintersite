@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#90a4ae"/>
+  <circle cx="200" cy="150" r="70" fill="#78909c"/>
+  <rect x="80" y="250" width="240" height="200" fill="#78909c" rx="120"/>
+  <text x="200" y="380" font-family="Arial,sans-serif" font-size="13" fill="#eceff1" text-anchor="middle">James Wilson</text>
+</svg>

@@ -1,0 +1,72 @@
+:root {
+  /* === NEW DESIGN SYSTEM === */
+  --color-primary: #E8501A;
+  --color-primary-hover: #c94415;
+  --color-primary-glow: rgba(232, 80, 26, 0.35);
+  --color-dark-hero: #1e2d3d;
+  --color-dark-navy: #2c3a4a;
+  --color-dark-nav: #393f4d;
+  /* === THEMEABLE BACKGROUNDS (updated by JS on colour selection) === */
+  --bg-hero: linear-gradient(135deg, #1a2738 0%, #2c3a4a 60%, #1e3a5f 100%);
+  --bg-nav: #393f4d;
+  --bg-contact: #2c3a4a;
+  --color-dark-contact: #34495e;
+  --color-section-light: #f8f9fa;
+  --color-section-white: #ffffff;
+  --color-text-on-dark: rgba(255, 255, 255, 0.85);
+  --color-text-footer-link: #b0bec5;
+  --color-text-body: #374151;
+  --color-text-heading: #1a2332;
+  --color-accent-eyebrow: #64b5d6;
+  --color-star: #F5A623;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --radius-card: 12px;
+  --radius-btn: 6px;
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.07);
+  --shadow-card-hover: 0 12px 36px rgba(0, 0, 0, 0.13);
+  --transition-default: 0.25s ease;
+
+  /* === LEGACY ALIASES (for About page & unmodified components) === */
+  --color-secondary: #428bca;
+  --color-accent: #34495e;
+  --color-bg-white: #ffffff;
+  --color-bg-light: #f8f9fa;
+  --color-bg-dark: #393f4d;
+  --color-neutral-100: #6b7a8d;
+  --color-neutral-400: #3b3b3b;
+  --color-neutral-500: #e7e7e7;
+  --color-text-muted: #6b7a8d;
+  --color-text-dark: #1a2332;
+  --color-text-medium: #6b7a8d;
+  --color-text-link: #E8501A;
+  --font-primary: 'Inter', system-ui, sans-serif;
+
+  /* Text sizes */
+  --text-xs:   12px;
+  --text-sm:   14px;
+  --text-base: 16px;
+  --text-md:   18px;
+  --text-lg:   20px;
+  --text-xl:   24px;
+  --text-2xl:  28px;
+  --text-3xl:  30px;
+  --text-4xl:  40px;
+  --text-5xl:  50px;
+  --text-6xl:  60px;
+
+  /* Border radii */
+  --radius-xs:   4px;
+  --radius-sm:   4px;
+  --radius-md:   10px;
+  --radius-xl:   20px;
+  --radius-full: 100px;
+
+  /* Shadows */
+  --shadow-xs:  rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset;
+  --shadow-sm:  0 0 0 3px rgba(232, 80, 26, 0.2);
+  --shadow-sm2: 0 2px 16px rgba(0, 0, 0, 0.08);
+  --shadow-md:  rgba(0, 0, 0, 0.5) 0px 0px 10px 0px;
+  --shadow-lg:  rgba(0, 0, 0, 0.176) 0px 6px 12px 0px;
+  --shadow-lg2: rgb(0, 0, 0) 0px 0px 20px 0px;
+}
